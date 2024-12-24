@@ -32,8 +32,8 @@ The configuration of the ASA itself to set up ASDM was fairly simple and only to
 <h2>Walk-Through:</h2>
 
 <p align="center">
-Configuring the shopping category to allow for admin override and continue to the site after valid admin credentials are submitted.<br/>
-<img src="https://i.imgur.com/UlYxP15.png" height="80%" width="80%" alt="Palo Alto Firewall Factory Reset Steps"/>
+Configuring the vlan and http server for access to the ASDM<br/>
+<img src="https://i.imgur.com/2m0EZiJ.png" height="80%" width="80%" alt="ASDM Config Steps"/>
 <br />
 <br />
 Configure security profile<br/>
