@@ -1,4 +1,4 @@
-<h1>Configuring ASDM</h1>
+<h1>Configuring ASDM on ASA 5505</h1>
 
 
 <h2>TLDR Description</h2>
@@ -49,13 +49,15 @@ Here is the ASDM up and running in our environment<br/>
 <h2>Problems</h2>
 We ran into multiple problems in this lab trying to figure out how to get ASDM up and running, the main problem we had that took us a long time to figure out after endless google searching and messing with settings in java was that java was having a hard time running the ASDM on our computers. We found a fix to this issue by using the bootup log that the launcher has and literally messing with almost all of the java settings to finally find what was wrong which ended up being the TLS certificates.
 <br />
+<br />
+<br />
 <p align="center">
-the error that we faced, and needed to trouble shoot:<br/>
+The error that we faced, and needed to trouble shoot:<br/>
 <img src="https://i.imgur.com/Z1LhEka.png" height="60%" width="60%" alt="error"/>
 <br />
 <br />
 ASDM File properties<br/>
-<img src="https://i.imgur.com/suOVXSD.png" height="80%" width="80%" alt="ASDM properties"/>
+<img src="https://i.imgur.com/suOVXSD.png" height="50%" width="50%" alt="ASDM properties"/>
 <br />
 <br />
 Going through the java configs to troubleshoot<br/>
@@ -63,7 +65,8 @@ Going through the java configs to troubleshoot<br/>
 <br />
 <br />
 Ensuring that the program is accepting our set TLS certificates which it was not, but we fixed by configuring it to do so<br/>
-<img src="https://i.imgur.com/JXvJKtN.png" height="80%" width="80%" alt="ASDM properties"/>
+<br />
+<img src="https://i.imgur.com/JXvJKtN.png" height="50%" width="50%" alt="ASDM properties"/>
 <br />
 <br />
 </p>
