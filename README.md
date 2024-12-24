@@ -53,7 +53,9 @@ The prompted admin override page that we were looking for, proves filtering and 
 <br />
 </p>
 
-<h2>We ran into multiple problems in this lab trying to figure out how to get ASDM up and running, the main problem we had that took us a long time to figure out after endless google searching and messing with settings in java was that java was having a hard time running the ASDM on our computers. We found a fix to this issue by using the bootup log that the launcher has and literally messing with almost all of the java settings to finally find what was wrong which ended up being the TLS certificates.</h2>
+<h2>Problems</h2>
+We ran into multiple problems in this lab trying to figure out how to get ASDM up and running, the main problem we had that took us a long time to figure out after endless google searching and messing with settings in java was that java was having a hard time running the ASDM on our computers. We found a fix to this issue by using the bootup log that the launcher has and literally messing with almost all of the java settings to finally find what was wrong which ended up being the TLS certificates.
+<br />
 
 <h2>Conclusion</h2>
 This lab overall was extremely simple but it took us a very long time to figure out just how simple it was, the process of finding the solution was pretty difficult in itself. It took us a few class periods scavenging google for anything useful and we ended up finding the solution to our java problem through troubleshooting and not even google. After all of that I ended up finally getting ASDM to work and from what I’ve seen from it so far it will probably prove to be very useful in our upcoming labs.
