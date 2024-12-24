@@ -36,12 +36,12 @@ Configuring the vlan and http server for access to the ASDM<br/>
 <img src="https://i.imgur.com/2m0EZiJ.png" height="80%" width="80%" alt="ASDM Config Steps"/>
 <br />
 <br />
-Configure security profile<br/>
-<img src="https://i.imgur.com/puciIz5.png" height="80%" width="80%" alt="Palo Alto Firewall Factory Reset Steps"/>
+Once I accessed the http server I then installed the ASDM launcher and logged into the ASDM using device IP and the username and pass I set in the config above.<br/>
+<img src="https://i.imgur.com/puciIz5.png" height="80%" width="80%" alt="http server"/>
 <br />
 <br />
-Configure admin override<br/>
-<img src="https://i.imgur.com/Es0IwiZ.png" height="80%" width="80%" alt="Palo Alto Firewall Factory Reset Steps"/>
+Here is the ASDM up and running in our environment<br/>
+<img src="https://i.imgur.com/Es0IwiZ.png" height="80%" width="80%" alt="ASDM running"/>
 <br />
 <br />
 <img src="https://i.imgur.com/TPGEmWc.png" height="60%" width="60%" alt="Palo Alto Firewall Factory Reset Steps"/>
