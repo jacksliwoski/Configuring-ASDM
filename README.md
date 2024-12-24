@@ -23,6 +23,12 @@ The configuration of the ASA itself to set up ASDM was fairly simple and only to
 </p>
 <br />
 
+<h2>Lab Commands</h2>
+  -	nameif outside – sets the name of an interface in the firewall.
+<br />
+  -	http server enable – enables http server into the ASA.
+<br />
+
 <h2>Walk-Through:</h2>
 
 <p align="center">
