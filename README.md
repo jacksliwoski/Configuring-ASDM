@@ -37,7 +37,7 @@ Configuring the vlan and http server for access to the ASDM<br/>
 <br />
 <br />
 Configure security profile<br/>
-<img src="https://i.imgur.com/puciIz5.png" height="60%" width="60%" alt="Palo Alto Firewall Factory Reset Steps"/>
+<img src="https://i.imgur.com/puciIz5.png" height="80%" width="80%" alt="Palo Alto Firewall Factory Reset Steps"/>
 <br />
 <br />
 Configure admin override<br/>
