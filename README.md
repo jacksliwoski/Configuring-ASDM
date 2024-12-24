@@ -44,18 +44,29 @@ Here is the ASDM up and running in our environment<br/>
 <img src="https://i.imgur.com/Es0IwiZ.png" height="80%" width="80%" alt="ASDM running"/>
 <br />
 <br />
-<img src="https://i.imgur.com/TPGEmWc.png" height="60%" width="60%" alt="Palo Alto Firewall Factory Reset Steps"/>
-<br />
-<br />
-The prompted admin override page that we were looking for, proves filtering and possible admin override is working.<br/>
-<img src="https://i.imgur.com/2otyiO4.png" height="80%" width="80%" alt="Palo Alto Firewall Factory Reset Steps"/>
-<br />
-<br />
 </p>
 
 <h2>Problems</h2>
 We ran into multiple problems in this lab trying to figure out how to get ASDM up and running, the main problem we had that took us a long time to figure out after endless google searching and messing with settings in java was that java was having a hard time running the ASDM on our computers. We found a fix to this issue by using the bootup log that the launcher has and literally messing with almost all of the java settings to finally find what was wrong which ended up being the TLS certificates.
 <br />
+<p align="center">
+the error that we faced, and needed to trouble shoot:<br/>
+<img src="https://i.imgur.com/Z1LhEka.png" height="60%" width="60%" alt="error"/>
+<br />
+<br />
+ASDM File properties<br/>
+<img src="https://i.imgur.com/suOVXSD.png" height="80%" width="80%" alt="ASDM properties"/>
+<br />
+<br />
+Going through the java configs to troubleshoot<br/>
+<img src="https://i.imgur.com/rY0w3Al.png" height="80%" width="80%" alt="ASDM properties"/>
+<br />
+<br />
+Ensuring that the program is accepting our set TLS certificates which it was not, but we fixed by configuring it to do so<br/>
+<img src="https://i.imgur.com/JXvJKtN.png" height="80%" width="80%" alt="ASDM properties"/>
+<br />
+<br />
+</p>
 
 <h2>Conclusion</h2>
 This lab overall was extremely simple but it took us a very long time to figure out just how simple it was, the process of finding the solution was pretty difficult in itself. It took us a few class periods scavenging google for anything useful and we ended up finding the solution to our java problem through troubleshooting and not even google. After all of that I ended up finally getting ASDM to work and from what I’ve seen from it so far it will probably prove to be very useful in our upcoming labs.
