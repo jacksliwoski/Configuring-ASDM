@@ -19,7 +19,7 @@ The configuration of the ASA itself to set up ASDM was fairly simple and only to
 
 <h2>Network Diagram</h2>
 <p align="center">
-  <img src="https://i.imgur.com/z6KSqzd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/pPWMh3n.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
